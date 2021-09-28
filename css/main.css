@@ -399,9 +399,55 @@ aside {
 }
  
 @media only screen and (min-width: 1200px) {
-main {
-    background: lightgoldenrodyellow;
+
+  .content-wrapper {
+       max-width: 960px;
   }
+
+  .hero-area{
+    width: 100%;
+  }
+
+  h1 {
+    width: 35%;
+    text-align: left;
+  }
+
+  main {
+      background: lightgoldenrodyellow;
+  }
+
+  aside .content-wrapper {
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  aside .form-description,
+  aside .form {
+    width: 36%;
+  }
+
+  .features h2 {
+    width: 60%;
+  }
+
+  .features article {
+    flex-basis: 28%;
+  }
+
+  /* ==========================================================================
+   About Page
+   ========================================================================== */
+ 
+    .mission,
+    .contact-section {
+      width: 100%;
+    }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+   
 }
 
 
