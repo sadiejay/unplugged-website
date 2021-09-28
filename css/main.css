@@ -100,6 +100,49 @@ html {
   margin: 0 5vw;
 }
 
+/* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+ 
+ul, 
+ol {
+ list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 2em;
+}
+ 
+h3, 
+h4 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.25em;
+}
+ 
+p {
+  font-size: .9em;
+  line-height: 1.4em;
+}
+ 
+address {
+ font-style: none;
+}
+ 
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
