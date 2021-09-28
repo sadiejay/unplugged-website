@@ -109,7 +109,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-
+  color: #e2e3ed;
 }
  
 ul, 
@@ -121,16 +121,22 @@ a {
   color: #e2e3ed;
   text-decoration: none;
 }
+
+h1 {
+  font-weight: 400;
+}
  
 h2 {
  font-family: 'Poppins', sans-serif;
  font-size: 2em;
+ font-weight: 400;
 }
  
 h3, 
 h4 {
  font-family: 'Poppins', sans-serif;
  font-size: 1.25em;
+ font-weight: 400;
 }
  
 p {
@@ -139,7 +145,9 @@ p {
 }
  
 address {
- font-style: none;
+ font-style: normal;
+ color: #e2e3ed;
+ text-align: center;
 }
  
 
@@ -151,6 +159,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #181a1a;
 }
 
 header .content-wrapper,
@@ -163,6 +172,10 @@ header {
  padding: 5vh 0;
 }
 
+.hero-area {
+  background: #425e46;
+}
+
 .header-divider {
   width: 80%;
 }
@@ -172,6 +185,8 @@ header nav {
   justify-content: center;
   align-items: center;
   width: 60%;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -189,7 +204,7 @@ footer .content-wrapper {
 
 /* -------------------- Base Main Styles -------------------- */
 main,
-.reveiws,
+.reviews,
 .contact,
 .social {
   display: flex;
@@ -202,6 +217,35 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #425e46;
+}
+
+aside .form {
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .form {
@@ -210,6 +254,10 @@ aside {
   align-content: center;
   align-items: stretch;
   justify-content: space-around;
+}
+
+.features {
+  background: #181a1a;
 }
 
 .features-items {
@@ -223,11 +271,20 @@ aside {
   padding: 5vh 0;
 }
 
+p.features-item-description {
+  text-align: center;
+}
+
 .features article {
   width: 66%;
 }
 
-.reveiws h3 {
+.reviews {
+  background: #20332c;
+  padding: 40px 0;
+}
+
+.reviews h3 {
   width: 50%;
 }
 
@@ -238,9 +295,28 @@ aside {
   justify-content: space-around;
 }
 
+/* ==========================================================================
+ About Page
+ ========================================================================== */
 
+
+.mission {
+  background: #425e46;
+}
+
+.contact-section {
+  background: #20332c;
+}
+
+.contact-content {
+  text-align: left;
+}
 
 /* -------------------- Base FAQ Styles -------------------- */
+
+.faq {
+  background: #425e46;
+}
 
 .faq-content {
   display: flex;
