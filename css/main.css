@@ -549,6 +549,10 @@ p.features-item-description {
     .mission-content p {
         width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 45.5%;
+    }
  
     .contact-section {
       width: 100%;
@@ -646,6 +650,10 @@ p.features-item-description {
     .mission,
     .contact-section {
       width: 100%;
+    }
+
+    .map figure {
+      padding-bottom: 37.5%;
     }
 
 /* ==========================================================================
