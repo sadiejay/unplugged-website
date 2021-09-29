@@ -613,6 +613,11 @@ p.features-item-description {
     line-height: 1.2em;
   }
 
+  .contact,
+  .social {
+    flex-basis: 50%;
+  }
+
 
   /* ==========================================================================
    About Page
@@ -667,7 +672,7 @@ p.features-item-description {
     }
     
     .faq-content {
-        flex-basis: 40%;
+        flex-basis: 45%;
     }
  
     .faq h2 {
@@ -689,7 +694,9 @@ p.features-item-description {
       line-height: 1.125;
     }
     
-
+    .faq h4 {
+      margin-bottom: 10px;
+    }
 }
  
 @media only screen and (min-width: 1200px) {
