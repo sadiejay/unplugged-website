@@ -214,9 +214,24 @@ header nav ul {
   width: 100%;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 22vh 0;
+.copyright {
+  padding-top: 4em;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* -------------------- Base Main Styles -------------------- */
@@ -230,6 +245,7 @@ aside,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 
@@ -324,12 +340,6 @@ p.features-item-description {
   width: 50%;
 }
 
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
 /* ==========================================================================
  About Page
