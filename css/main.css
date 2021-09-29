@@ -303,6 +303,18 @@ p.features-item-description {
   width: 66%;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+.fontawesome-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .reviews {
   background: #20332c;
   padding: 40px 0;
