@@ -130,6 +130,7 @@ h2 {
  font-family: 'Poppins', sans-serif;
  font-size: 2em;
  font-weight: 400;
+ margin: 0;
 }
  
 h3, 
@@ -137,6 +138,7 @@ h4 {
  font-family: 'Poppins', sans-serif;
  font-size: 1.25em;
  font-weight: 400;
+ margin: 20px 0;
 }
  
 img {
@@ -144,7 +146,7 @@ img {
 }
 
 figure {
-   margin: 0;
+ margin: 0;
 }
 
 p {
@@ -214,14 +216,19 @@ header nav ul {
   width: 100%;
 }
 
+footer .footer-content {
+  width: 100%;
+}
+
 .copyright {
   padding-top: 4em;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 footer .social-icons p {
@@ -245,7 +252,6 @@ aside,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 
@@ -255,6 +261,14 @@ aside,
   min-height: 500px;
 }
 
+h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2;
+  text-align: left; 
+}
+
 aside {
   background: #425e46;
 }
@@ -262,7 +276,6 @@ aside {
 aside .form {
   margin-top: 30px;
   margin-bottom: 60px;
-
 }
  
 input[type=text] {
@@ -298,6 +311,10 @@ input[type=button] {
 
 .features {
   background: url('../img/feature-img.jpg') center no-repeat #181a1a;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features-items {
@@ -336,8 +353,15 @@ p.features-item-description {
   padding: 40px 0;
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
 .reviews h3 {
   width: 50%;
+  margin: 20px 0;
+
 }
 
 
@@ -378,6 +402,11 @@ p.features-item-description {
 
 .faq {
   background: #425e46;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
@@ -482,9 +511,25 @@ p.features-item-description {
     max-width: 640px;
   }
 
+   h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
   header figure {
-  width: 50%;
-}
+    width: 50%;
+  }
 
   header .content-wrapper {
     display: flex;
@@ -514,6 +559,10 @@ p.features-item-description {
     margin-top: 30px;
   }
 
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features-items {
     flex-flow: row wrap;
   } 
@@ -528,8 +577,12 @@ p.features-item-description {
     align-items: stretch;
   }
 
+  .reviews h2 {
+    width: 85%;
+  }
+
   .reviews h3 {
-    width: 100%;
+    width: 75%;
     margin: 0;
   }
 
@@ -550,6 +603,15 @@ p.features-item-description {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+  }
+
+  .footer h4 {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+  }
+
+  .footer p {
+    line-height: 1.2em;
   }
 
 
@@ -621,6 +683,12 @@ p.features-item-description {
       justify-content: space-between;
       align-items: flex-start;
     }
+
+    .faq h4,
+    .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+    }
     
 
 }
@@ -637,9 +705,21 @@ p.features-item-description {
 
   h1 {
     width: 100%;
-    text-align: left;
-    font-family: "Poppins";
     font-size: 3.8em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
   }
 
   main {
@@ -661,6 +741,10 @@ p.features-item-description {
     width: 100%;
   }
 
+  .reviews h2 {
+    padding-bottom: 50px; 
+  }
+
   .features article {
     flex-basis: 28%;
   }
@@ -678,10 +762,23 @@ p.features-item-description {
       padding-bottom: 37.5%;
     }
 
+    .contact-content h4 {
+      font-size: 1.875em;
+    }
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
-   
+   .faq h2 {
+      width: 100%;
+      font-size: 3em;
+    }
+    
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 }
 
 
