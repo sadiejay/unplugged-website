@@ -780,6 +780,22 @@ p.features-item-description {
   .features article {
     flex-basis: 28%;
   }
+  /* layered wave styling in footer */
+  main {
+    position: relative;
+  }
+
+  .spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .layered-wave {
+    background-image: url(../img/layered-waves-haikei-01-v3.svg);
+  }
 
   /* ==========================================================================
    About Page
