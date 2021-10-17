@@ -101,22 +101,22 @@ html {
 }
 
 /* General Styles */
- 
+
 html {
   font-size: 16px;
 }
- 
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
 }
- 
-ul, 
+
+ul,
 ol {
  list-style-type: none;
 }
- 
+
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -125,21 +125,21 @@ a {
 h1 {
   font-weight: 400;
 }
- 
+
 h2 {
  font-family: 'Poppins', sans-serif;
  font-size: 2em;
  font-weight: 400;
 }
- 
-h3, 
+
+h3,
 h4 {
  font-family: 'Poppins', sans-serif;
  font-size: 1.25em;
  font-weight: 400;
  margin: 20px 0;
 }
- 
+
 img {
   width: 100%;
 }
@@ -152,13 +152,13 @@ p {
   font-size: .9em;
   line-height: 1.4em;
 }
- 
+
 address {
  font-style: normal;
  color: #e2e3ed;
  text-align: center;
 }
- 
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -262,10 +262,10 @@ aside,
 
 h1 {
   font-size: 2.25em;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
-  font-weight: 500; 
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
   line-height: 1.2;
-  text-align: left; 
+  text-align: left;
 }
 
 aside {
@@ -276,7 +276,7 @@ aside .form {
   margin-top: 30px;
   margin-bottom: 60px;
 }
- 
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -284,7 +284,7 @@ input[type=text] {
   font-style: italic;
   padding: 1em;
 }
- 
+
 input[type=button] {
   width: 100%;
   padding: 20px 0;
@@ -375,8 +375,8 @@ p.features-item-description {
 
 .map figure {
   width: 100%;
-  height: 0; 
-  padding-bottom: 125%; 
+  height: 0;
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
@@ -384,9 +384,9 @@ p.features-item-description {
 .map iframe {
   width: 100%;
   height: 100%;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -504,7 +504,7 @@ p.features-item-description {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  
+
   .content-wrapper {
     padding: 2em 0em;
     max-width: 640px;
@@ -524,6 +524,32 @@ p.features-item-description {
   h3 {
     font-size: 1.5em;
     line-height: 1.25;
+  }
+
+/* styling for header svg */
+  header {
+    position: relative;
+  }
+
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 32px;
+  }
+
+  .wave .shape-fill {
+    fill: #e2e3ed;
   }
 
   header figure {
@@ -564,7 +590,7 @@ p.features-item-description {
 
   .features-items {
     flex-flow: row wrap;
-  } 
+  }
 
   .features article {
     flex-basis: 45%;
@@ -622,7 +648,7 @@ p.features-item-description {
   /* ==========================================================================
    About Page
    ========================================================================== */
- 
+
    .mission {
       display: flex;
       justify-content: center;
@@ -633,7 +659,7 @@ p.features-item-description {
         justify-content: space-between;
         align-items: center;
     }
- 
+
     .mission-content p {
         width: 45%;
     }
@@ -641,7 +667,7 @@ p.features-item-description {
     .map figure {
       padding-bottom: 45.5%;
     }
- 
+
     .contact-section {
       width: 100%;
       display: flex;
@@ -651,7 +677,7 @@ p.features-item-description {
     .contact-section .content-wrapper h2 {
         width: 100%;
     }
- 
+
     .contact-content {
         display: flex;
         justify-content: space-between;
@@ -670,11 +696,11 @@ p.features-item-description {
     .faq .content-wrapper {
         justify-content: space-between;
     }
-    
+
     .faq-content {
         flex-basis: 45%;
     }
- 
+
     .faq h2 {
         width: 100%;
     }
@@ -693,12 +719,12 @@ p.features-item-description {
       font-size: .875em;
       line-height: 1.125;
     }
-    
+
     .faq h4 {
       margin-bottom: 10px;
     }
 }
- 
+
 @media only screen and (min-width: 1200px) {
 
   .content-wrapper {
@@ -748,7 +774,7 @@ p.features-item-description {
   }
 
   .reviews h2 {
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
   }
 
   .features article {
@@ -758,7 +784,7 @@ p.features-item-description {
   /* ==========================================================================
    About Page
    ========================================================================== */
- 
+
     .mission,
     .contact-section {
       width: 100%;
@@ -779,7 +805,7 @@ p.features-item-description {
       width: 100%;
       font-size: 3em;
     }
-    
+
   .faq h4,
   .faq p {
     font-size: 1.125em;
