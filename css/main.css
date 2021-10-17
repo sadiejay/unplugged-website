@@ -781,10 +781,12 @@ p.features-item-description {
     flex-basis: 28%;
   }
   /* layered wave styling in footer */
-  main {
+  footer {
     position: relative;
   }
-
+  .flip {
+    transform: rotate(180deg);
+  }
   .spacer {
     aspect-ratio: 960/300;
     width: 100%;
