@@ -1,5 +1,9 @@
 # unplugged-website update v2
 
+### Screenshot
+![unplugged-screenshot](https://user-images.githubusercontent.com/19538219/138781464-c8346434-c8b7-4fbe-a11f-b2fb3a0d0443.jpg)
+
+
 ### Resources
 
 - #### SVG CREATORS
