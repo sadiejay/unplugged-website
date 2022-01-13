@@ -398,6 +398,13 @@ p.features-item-description {
   text-align: left;
 }
 
+.address-info {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  margin: 20px 0;
+ }
+
 /* -------------------- Base FAQ Styles -------------------- */
 
 .faq {
